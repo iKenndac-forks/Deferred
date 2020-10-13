@@ -9,6 +9,8 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v1
+    - name: Gem Update
+      run: gem update
     - name: Run Swift Test
       run: bundle exec fastlane mac test
     # - name: Run xcodebuild
@@ -21,6 +23,8 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v1
+    - name: Gem Update
+      run: gem update
     - name: Run swift test
       run: bundle exec fastlane mac test
     # - name: Check build for playgrounds
