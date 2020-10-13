@@ -5,17 +5,17 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.001112">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000392">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: setup_circle_ci" time="0.00332">
+      <testcase classname="fastlane.lanes" name="1: setup_circle_ci" time="0.000573">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: spm" time="5.022422">
+      <testcase classname="fastlane.lanes" name="2: spm" time="18.913562">
         
       </testcase>
     

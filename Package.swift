@@ -19,10 +19,14 @@ let package = Package(
         .library(name: "Deferred", targets: [ "Deferred", "Task" ])
     ],
     dependencies: [
-       .package(
-         url: "https://github.com/apple/swift-atomics.git",
-         from: "0.0.1"
-       )
+      .package(
+        url: "https://github.com/apple/swift-atomics.git",
+        .upToNextMinor(from: "0.0.1")
+      )
+//       .package(
+//         url: "https://github.com/apple/swift-atomics.git",
+//         from: "0.0.1"
+//       )
      ],
     targets: [
         .target(
