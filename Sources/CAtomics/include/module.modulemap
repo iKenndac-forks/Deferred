@@ -1,3 +1,0 @@
-module CAtomics {
-    header "CAtomics.h"
-}
