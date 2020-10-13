@@ -8,7 +8,9 @@ jobs:
     name: Test iOS
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+      with:
+        ref: fastlane
     - name: Gem Update
       run: gem update -N
     - name: Run Swift Test
